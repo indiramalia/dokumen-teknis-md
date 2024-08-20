@@ -1,4 +1,4 @@
-# Dokumen Teknis Spotify - Fitur Check Track Lagu yang Tersimpan oleh User Spotify 
+# Dokumen Teknis Spotify - Fitur Check Track Lagu yang Telah Tersimpan oleh User Spotify 
 
 **Dokumen ini berisi study case pembuatan dokumen teknis suatu fitur pada aplikasi Spotify, mencakup beberapa jenis dokumen.**
 
