@@ -36,7 +36,7 @@ d. Data: Membuat satu table baru, prioritas High
 <img src="general_process.png" width="350" height="150">
 
 **6. Business Flow**\
-<img src="business_flow.png" alt="Alt text" width="1000" height="400">
+<img src="business_flow.png" alt="Alt text" width="500" height="200">
 
 ##### [Back to List](#list-dokumentasi)
 
