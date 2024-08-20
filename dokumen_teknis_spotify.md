@@ -15,8 +15,8 @@ _klik pada jenis dokumen yang ingin Anda baca_
 **1. Latar Belakang**: Sebelumnya user hanya dapat menyimpan track lagu tanpa bisa melihat track apa saja yang sudah mereka simpan. Sehingga banyak user yang berulang kali mencari dan mengecek ulang apakah user sudah menyimpan track yang ingin user simpan.
 
 **2. Goals**:\
-a. Memudahkan user untuk melihat track apa saja yang sudah disimpan.\
-b. User tidak perlu berulang kali mencari dan mengecek kembali track yang ingin disimpan.
+a. Memudahkan user untuk melihat track lagu yang sudah disimpan.\
+b. User tidak perlu berulang kali mencari dan mengecek kembali track lagu yang ingin disimpan.
 
 **3. Project Scope**:\
 a. Product\
@@ -61,7 +61,7 @@ d. Data: Membuat satu table baru, prioritas High
 a. Nama API: checkUserSavedTrack\
 b. URL: v1/me/tracks/contains\
 c. Method: GET\
-d. Description: API ini dipakai untuk mengambil data tentang track yang disimpan oleh user pada table saved_track. 
+d. Description: API ini dipakai untuk mengambil data tentang track lagu yang disimpan oleh user pada table saved_track. 
 
 **2. Request Param**:\
 <img src="request_param.png" alt="Alt text" width="1000" height="280">
@@ -87,11 +87,11 @@ d. Description: API ini dipakai untuk mengambil data tentang track yang disimpan
 ### SOP Documentation
 **1. List of Process**
 - Nama process: Get check user saved track
-- Step: proses ini dijalankan oleh scheduler oleh system pada jam 12.00 di setiap hari. Proses ini akan mengecek apakah suatu track telah tersimpan dalam playlist di dashboard user Spotify
+- Step: proses ini dijalankan oleh scheduler oleh system pada jam 12.00 di setiap hari. Proses ini akan mengecek apakah suatu track lagu telah tersimpan dalam playlist di dashboard user Spotify
 - Scheduler: Setiap jam 12.00 di setiap hari. 
 
 **2. Monitoring**:
-- Cek proses check user saved track: Proses ketika system mengambil data semua track yang telah tersimpan. 
+- Cek proses check user saved track: Proses ketika system mengambil data semua track lagu yang telah tersimpan. 
 
 **3. Troubleshooting**:
 - Problem issue: Data track tersimpan tidak dapat terambil
